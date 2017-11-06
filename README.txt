@@ -1,14 +1,13 @@
 
  README / MANUAL
  DATABASE -DATA, ENCRYPTING SOFTWARE
- ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 
  Here we go through every setting, found in "settings.json".
 
 >>> Please consider reading and filling the settings file properly before executing this program. <<<
-    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  
 >>  If you "accidentally" encrypt vital files from the database you may corrupt your database. <<
-    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ 
 
 > If you encrypt your database with a faulty password / forget your password,
 > there is a chance you end up encrypting your data as a 1 way ticket, without a chance to regain the data.
@@ -18,12 +17,12 @@
 > It is possible to recover the Hash Password by
 > sending your RECOVERY_KEY.txt LOG / specified key to the email address of the author given below.
 
- ______________________________________________________
- |Creator, Owner, Developer, Author - Kokkarinen Ville|
- ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
- ____________________________
- |kokkarinen.ville@gmail.com|
- ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+Creator, Owner, Developer, Author - Kokkarinen Ville
+
+
+kokkarinen.ville@gmail.com
+
 
 
 
