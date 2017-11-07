@@ -7,8 +7,9 @@
 #
 #>>> Please consider reading and filling the settings file properly before executing this program. <<<
 #    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-#>>  If you "accidentally" encrypt vital files from the database you may corrupt your database. <<
+#>>  If you *"accidentally"* encrypt vital files from the database you may corrupt your database. <<
 #    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+# *="You specifically enter system tables, and their columns into the list"=*
 #
 #> If you encrypt your database with a faulty password / forget your password,
 #> there is a chance you end up encrypting your data as a 1 way ticket, without a chance to regain the data.
