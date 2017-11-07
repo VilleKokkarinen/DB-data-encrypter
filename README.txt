@@ -17,7 +17,7 @@
 #
 #> If you have a copy of the RECOVERY_KEYS.txt, that will be generated to the root folder with a time stamp
 #> It is possible to recover the Hash Password by
-#> sending your RECOVERY_KEY.txt LOG / specified key to the email address of the author given below.
+#> sending your RECOVERY_KEY.txt LOG / specified key + some details to the email address of the author given below.
 #
 # ______________________________________________________
 # |Creator, Owner, Developer, Author - Kokkarinen Ville|
