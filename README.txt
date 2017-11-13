@@ -107,6 +107,11 @@
 # - Contains characters, which are not found on a keyboard, and can be generated
 #   with certain ALT + number combinations.
 #
+#
+# Note: Try not to include characters that are not supported by most platforms and or UTF-8
+#       You may risk using a character that turns into something else when converted to UTF-8
+#       *Some chinese/ japanese/ korean symbols etc. you can't find on a QWERTY keyboard.
+#
 # Type: string
 #
 # HashingPassword = "admin123!"
@@ -119,7 +124,7 @@
 # 
 # Array of tables, to encrypt / decrypt
 #          ¯¯¯¯¯¯
-# The program fetches all tables from the database, and then removes all tables which are not defined here
+# The program fetches table(s) which are defined here
 # 
 # Note that each field requires a comma, if there is another record after it.
 # 
@@ -137,11 +142,11 @@
 # 
 # Array of columns to encrypt/decrypt
 #          ¯¯¯¯¯¯¯
-# The program fetches all columns from the database, and then removes all columns,
-# which are not defined here, or their table is not defined in the TableNames array
+# The program fetches column(s) which are defined here and their parent table is defined in table array
 #
-# > Means that only the columns are modified, which are found in the tables from TableNames array,
-# > and the column name matches a value in ColumnNames array.
+#
+# > Means that if you have a column "X" eg. "customer" also in tables you don't want to encrypt, it will not modify them
+# 
 # 
 #
 # Note that each field requires a comma, if there is another record after it.
