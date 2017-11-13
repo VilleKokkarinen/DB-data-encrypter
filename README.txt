@@ -1,9 +1,9 @@
-#############################################################
+#
 # README / MANUAL
 # DATABASE -DATA, ENCRYPTING SOFTWARE
 # ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 #
-# Here we go through every setting, found in "settings.json".
+# Manual for "settings.json" and general use of this program.
 #
 #>>> Please consider reading and filling the settings file properly before executing this program. <<<
 #    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
@@ -17,7 +17,7 @@
 #
 #> If you have a copy of the RECOVERY_KEYS.txt, that will be generated to the root folder with a time stamp
 #> It is possible to recover the Hash Password by
-#> sending your RECOVERY_KEY.txt LOG / specified key + some details to the email address of the author given below.
+#> sending your RECOVERY_KEY.txt LOG / specified key + some details to the author given below.
 #
 # ______________________________________________________
 # |Creator, Owner, Developer, Author - Kokkarinen Ville|
@@ -30,7 +30,7 @@
 
 
 
-#1_________________________________________________________________________________________
+#1
 # Encrypt & Decrypt
 #
 # When encrypt is set as "true", attempts to encrypt data
@@ -46,7 +46,7 @@
 ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 
 
-#2_________________________________________________________________________________________
+#2
 # EditShortFields
 #
 # When EditShortFields is set as "true",
@@ -60,7 +60,7 @@
 
 
 
-#3_________________________________________________________________________________________
+#3
 # ValueForShortFields
 #
 # When EditShortFields is set as "true" and "ValueForShortFields" has a value,
@@ -89,7 +89,7 @@
 
 
 
-#5_________________________________________________________________________________________
+#5
 # HashingPassword
 #
 # Password used to SHA256 hash data
@@ -111,7 +111,7 @@
 
 
 
-#6_________________________________________________________________________________________
+#6
 # TableNames
 # 
 # Array of tables, to encrypt / decrypt
@@ -129,7 +129,7 @@
 
 
 
-#7_________________________________________________________________________________________
+#7
 # ColumnNames
 # 
 # Array of columns to encrypt/decrypt
