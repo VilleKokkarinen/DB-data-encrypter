@@ -10,6 +10,10 @@
 #>>  If you *"accidentally"* encrypt vital files from the database you may corrupt your database. <<
 #          -*"You specifically enter system tables, and their columns into the list"*
 #    
+# Tested only on a FIREBIRD DATABASE, no quarantee of working in other database structures.
+# *Works in databases, with same select and update syntaxes as firebird.
+#
+#
 #
 #> If you encrypt your database with a faulty password / forget your password,
 #> there is a chance you end up encrypting your data as a 1 way ticket, without a chance to regain the data.
@@ -69,6 +73,8 @@
 # When EditShortFields is set as "true" and "ValueForShortFields" has a value,
 # edits fields that are too short to receive encrypted data back,
 # with the value defined at "ValueForShortFields".
+#
+# Note: If this value is still too long to fit in a field, the field will not be encrypted, and will be left as it is found
 # 
 # Type: String
 #
@@ -82,6 +88,7 @@
 #
 # Required to connect to a database
 # ¯¯¯¯¯¯¯¯
+#
 # Example. connectionstring:
 # "User ID=sysdba;Password=admin;Database=192.168.0.1:C:/Databases/Database.fdb;Datasource=192.168.0.1;"
 #
