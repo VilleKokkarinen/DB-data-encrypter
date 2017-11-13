@@ -38,9 +38,8 @@
 #
 # When encrypt is set as "true", attempts to encrypt data
 #      ¯¯¯¯¯¯¯                               ¯¯¯¯¯¯¯
-# When decrypt is set as "true", attempts to decrypt data
-#      ¯¯¯¯¯¯¯                               ¯¯¯¯¯¯¯
-# Both cannot be true, nor false, at the same time.
+# When encrypt is set as "false", attempts to decrypt data
+#      ¯¯¯¯¯¯¯                               ¯¯¯¯¯¯¯ 
 #
 # Type: Boolean
 #
