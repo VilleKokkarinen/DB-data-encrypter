@@ -8,11 +8,14 @@
 #>>> Please consider reading and filling the settings file properly before executing this program. <<<
 #    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 #>>  If you *"accidentally"* encrypt vital files from the database you may corrupt your database. <<
-#    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-# *="You specifically enter system tables, and their columns into the list"=*
+#          -*"You specifically enter system tables, and their columns into the list"*
+#    
 #
 #> If you encrypt your database with a faulty password / forget your password,
 #> there is a chance you end up encrypting your data as a 1 way ticket, without a chance to regain the data.
+#
+# >> Faulty password meaning, contains a character which is not supported in UTF-8, or other similar exception.
+#
 #
 #
 #> If you have a copy of the RECOVERY_KEYS.txt, that will be generated to the root folder with a time stamp
@@ -45,6 +48,8 @@
 # Encrypt = false
 
 
+
+
 #2
 # EditShortFields
 #
@@ -55,6 +60,7 @@
 # Type: Boolean
 #
 # EditShortFields = true
+
 
 
 
@@ -71,6 +77,7 @@
 
 
 
+
 #4
 # Connectionstring
 #
@@ -82,6 +89,7 @@
 # Type: string
 #
 # connectionstring = ""
+
 
 
 
@@ -106,6 +114,7 @@
 
 
 
+
 #6
 # TableNames
 # 
@@ -120,6 +129,7 @@
 # "table2",
 # "table3"
 # ]
+
 
 
 
