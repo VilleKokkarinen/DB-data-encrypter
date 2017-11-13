@@ -1,4 +1,4 @@
-#
+# Release Version 1.0.0
 # README / MANUAL
 # DATABASE -DATA, ENCRYPTING SOFTWARE
 # ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
