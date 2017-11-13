@@ -81,9 +81,20 @@
 # ValueForShortFields = "XYZ"
 
 
-
-
 #4
+# FirebirdDB
+#
+# choose if database is SQL or Firebird based
+#
+# True = uses firebird syntaxes & connectionstring
+# false = uses SQL syntaxes & connectionstring
+#
+# Type: Boolean
+#
+# firebirdDB = true
+# firebirdDB = false
+
+#5
 # Connectionstring
 #
 # Required to connect to a database
@@ -99,7 +110,7 @@
 
 
 
-#5
+#6
 # HashingPassword
 #
 # Password used to SHA256 hash data
@@ -126,7 +137,7 @@
 
 
 
-#6
+#7
 # TableNames
 # 
 # Array of tables, to encrypt / decrypt
@@ -144,7 +155,7 @@
 
 
 
-#7
+#8
 # ColumnNames
 # 
 # Array of columns to encrypt/decrypt
