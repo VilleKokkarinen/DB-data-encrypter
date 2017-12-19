@@ -1,3 +1,7 @@
+V1.0.2
+- Edited a part of settings to use && instead of ||, resulting in a unknown error.
+- Still not tested in SQL
+
 V1.0.1
 -Support for SQL
 -! Not tested reliablity on SQL databases yet
