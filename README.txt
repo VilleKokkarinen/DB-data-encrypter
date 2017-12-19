@@ -160,12 +160,10 @@
 # 
 # Array of columns to encrypt/decrypt
 #          ¯¯¯¯¯¯¯
-# The program fetches column(s) which are defined here and their parent table is defined in table array
+# The program creates a list of all availabe columns entered here, from the tables defined above.
+# If the column doesn't exist in the table, it's left out from the editing.
 #
 #
-# > Means that if you have a column "X" eg. "customer" also in tables you don't want to encrypt, it will not modify them
-# 
-# 
 #
 # Note that each field requires a comma, if there is another record after it.
 # 
